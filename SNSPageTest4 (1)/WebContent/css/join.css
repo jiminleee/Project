@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+:root {
+  --main-color: rgb(75, 132, 125);
+  --point-color: rgb(166, 35, 77);
+  --gray-color: rgba(100, 100, 111, 0.5);
+}
+
+body {
+  background-color: white;
+}
+
+hr {
+  border: var(--point-color) 1px solid;
+  margin-top: 20px;
+}
+
+textarea {
+  padding: 10px;
+
+  margin: 8px;
+
+  width: 30%;
+  height: 100px;
+
+  border: var(--gray-color) 1px solid;
+  resize: none;
+}
+
+#inputFile {
+  display: none;
+}
+
+.bigSpan {
+  font-size: 15pt;
+  font-weight: bolder;
+
+  font-family: 'Gugi', cursive;
+
+}
+
+.joinContainer {
+  margin: 0 auto;
+  width: 80%;
+  height: 80%;
+  background-color: rgb(255, 255, 255);
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.joinBox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  width: 60%;
+  margin: auto;
+  padding: 100px;
+
+}
+
+.joinSpan {
+  font-weight: bolder;
+  font-size: 10pt;
+}
+
+.joinPic {
+  margin-top: 20px;
+}
+
+.joinPic .joinSpan {
+  margin-bottom: 10px;
+}
+
+
+.joinId {
+  margin-top: 20px;
+}
+
+.joinPw {
+  margin-top: 20px;
+}
+
+.joinPwCh {
+  margin-top: 20px;
+}
+
+.joinName {
+  margin-top: 20px;
+}
+
+.joinAge {
+  margin-top: 20px;
+}
+
+.joinGender {
+  margin-top: 20px;
+}
+
+.joinIntro {
+  margin-top: 25px;
+}
+
+/*input*/
+
+.joinId input {
+  padding: 10px;
+  margin: 8px;
+
+  width: 30%;
+
+  border: var(--gray-color) 1px solid;
+}
+
+.joinPw input {
+  padding: 10px;
+
+  margin: 8px;
+
+  width: 30%;
+
+  border: var(--gray-color) 1px solid;
+}
+
+.joinPwCh input {
+  padding: 10px;
+
+  margin: 8px;
+
+  width: 30%;
+
+  border: var(--gray-color) 1px solid;
+}
+
+.joinName input {
+  padding: 10px;
+
+  margin: 8px;
+
+  width: 30%;
+
+  border: var(--gray-color) 1px solid;
+}
+
+.joinAge input {
+  padding: 10px;
+
+  margin: 8px;
+
+  width: 30%;
+
+  border: var(--gray-color) 1px solid;
+}
+
+.inputFileBtn {
+  background-color: var(--main-color);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+
+  font-size: 10pt;
+}
+
+.inputFileBtn:hover {
+  background-color: var(--point-color);
+}
+
+/*input 끝*/
+
+
+.joinBtn {
+  margin-top: 30px;
+}
+
+.joinBtn button {
+  background-color: var(--main-color);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.joinBtn button:hover {
+  background-color: var(--point-color);
+}
+
+.resultSpan {
+	font-size: 9pt;
+	font-weight: bold;
+}
+

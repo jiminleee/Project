@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="com.jm"/>
+			<item value="JDBC2"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="09_Board_Maven"/>
+			<item value="02JDBC2"/>
+			<item value="JDBC2"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

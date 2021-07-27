@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+
+:root {
+  --main-color: rgb(75, 132, 125);
+  --point-color: rgb(166, 35, 77);
+  --gray-color: rgba(100, 100, 111, 0.5);
+}
+
+a:link {
+  color : var(--gray-color);
+  text-decoration: none;
+}
+a:visited {
+  color : var(--gray-color);
+  text-decoration: none;
+}
+a:hover {
+  color : var(--gray-color);
+  text-decoration: underline;
+}
+a:active {
+  color : var(--gray-color);
+  text-decoration: none;
+}
+
+
+
+
+
+body {
+  
+  background-color: white;
+
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  padding: 8px;
+  margin: 3px;
+
+  border: var(--gray-color) 1px solid;
+}
+
+.idInput span {
+	font-size: 8pt;
+}
+
+.bgBox {
+	width: 600px;
+	height: auto;
+	
+	margin: 0 auto;
+}
+
+.bgBox image {
+	width: 100%;
+}
+
+.loginContainer {
+  width: 800px;
+  height: 500px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  background-color: white;
+  border-radius: 10px;
+
+  display: flex;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.designBox {
+  width: 45%;
+  height: 90%;
+
+  margin: auto;
+
+  background-image: url(../images/logo.jpg);
+  background-size: cover;
+
+}
+
+.updown { 
+  border: 1px solid rgba(100, 100, 111, 0.1); 
+  width: 0.1px; 
+  height: 95%; 
+  margin: auto;
+}
+
+.login {
+  width: 45%;
+  height: 90%;
+
+  margin: auto;
+
+  /* background-color: turquoise; */
+
+  display: flex;
+  text-align: center;
+}
+
+.loginPage {
+  margin: auto;
+}
+
+.loginBtn {
+  padding: 10px;
+}
+
+.loginBtn button {
+  background-color: var(--main-color);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.loginBtn button:hover {
+  background-color: var(--point-color);
+}
+
+a {
+  font-size: 8pt;
+}

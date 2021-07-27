@@ -1,0 +1,27 @@
+---------- 빈 껍데기
+
+Connection
+Statment
+ResultSet
+
+---------- 길제 구동코드는 드라이버가 (ojdbc)
+
+저 껍데기들이 그 드라이버를 이용해서 db에 연결하거나, 실행 해주는것.
+
+이를 위해 해야될 것들.
+
+1. Driver를 로드 (객체화)
+Class.forname("oracle.jdbc.driver.OracleDriver);
+
+2. 연결 객체 얻기
+Connection con= DriverManager.getConnection(
+	url = jdbc:oracle:thin:@localhost:1521:xe
+	id,
+	pw
+);
+
+3. 실행도구를 생성
+Statement st = con.createStatment();
+
+4. 결과를 얻기
+ResultSet rs = st.executeQuery(sql);

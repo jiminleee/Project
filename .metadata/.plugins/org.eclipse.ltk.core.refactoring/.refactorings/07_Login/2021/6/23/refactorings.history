@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DBManager.java&apos; to &apos;08_LoginSystem/src/com.jm.h&apos;&#x0D;&#x0A;- Original project: &apos;07_Login&apos;&#x0D;&#x0A;- Destination element: &apos;08_LoginSystem/src/com.jm.h&apos;&#x0D;&#x0A;- Original element: &apos;com.jm.hc.DBManager.java&apos;" description="Copy compilation unit" destination="=08_LoginSystem/src&lt;com.jm.h" element1="/src&lt;com.jm.hc{DBManager.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1622530441385" units="1" version="1.0"/>
+</session>

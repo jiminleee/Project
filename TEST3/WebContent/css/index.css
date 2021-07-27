@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+
+siteMenuTbl{
+	
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+   	height:75px;
+   	color:yellow;
+    width: 100%;
+    align-items: center;
+
+}
